@@ -33,7 +33,6 @@ nav {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  display: flex;
 }
 
 .nav__row {
@@ -49,4 +48,21 @@ nav {
 .nav__logo--img {
   width: 40px;
   height: 40px;
+}
+
+.nav__logo--title{
+  font-size: 24px;
+  font-weight: 900;
+  margin-left: 12px;
+  letter-spacing: 0.6px;
+  padding-bottom: 2px;
+}
+
+.nav__link{
+  
+}
+
+.nav__links{
+  margin: 0 auto;
+  padding-bottom: 2px;
 }
