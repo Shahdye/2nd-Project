@@ -11,31 +11,82 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-  max-width: 100vh;
+body {
+  width: 100vw;
   overflow: hidden;
 }
 
-section{
+section {
   padding: 0 32px;
 }
 
-nav{
+nav {
+  display: flex;
   padding-top: 32px;
 }
 
-.row{
+.container {
+  padding: 96px 0;
+}
+
+.row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
-.nav__row{
+.nav__row {
   display: flex;
   justify-content: space-between;
+}
+
+.nav__title {
+  display: flex;
   align-items: center;
 }
 
+.nav__logo--img {
+  width: 40px;
+  height: 40px;
+}
 
+.nav__logo--title {
+  font-weight: 1000;
+  font-size: 24px;
+  padding-left: 8px;
+}
 
+.nav__link--list {
+  display: flex;
+  align-items: center;
+}
 
+.nav__link{
+  padding-left: 28px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__description{
+  width: 40%;
+}
+
+.header__img--wrapper{
+  width: 60%;
+}
+
+.header__img{
+  width: 800px;
+  height: 800px;
+}
+
+.header__customers--img{
+  width: 400px;
+  opacity: 0.5;
+}
