@@ -25,8 +25,8 @@ nav {
   padding-top: 32px;
 }
 
-.container {
-  padding: 96px 0;
+header .container {
+  margin-top: -24px;
 }
 
 .row {
@@ -61,7 +61,7 @@ nav {
   align-items: center;
 }
 
-.nav__link{
+.nav__link {
   padding-left: 28px;
   font-weight: 600;
   font-size: 14px;
@@ -73,20 +73,39 @@ header .row {
   justify-content: space-between;
 }
 
-.header__description{
-  width: 40%;
+.header__img {
+  width: 750px;
+  height: 750px;
 }
 
-.header__img--wrapper{
-  width: 60%;
-}
-
-.header__img{
-  width: 800px;
-  height: 800px;
-}
-
-.header__customers--img{
+.header__customers--img {
   width: 400px;
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.25;
+  margin-top: 48px;
+}
+
+.header__description--para {
+  margin: 48px 0;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+
+.header__customers--title {
+  margin-top: 80px;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+.header__customers--img {
+  margin-top: 16px;
+  padding-right: 128px;
   opacity: 0.5;
 }
