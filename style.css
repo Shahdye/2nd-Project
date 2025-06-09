@@ -7,7 +7,7 @@
   color: #243e63;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  margin-bottom: 96px;
+}
+
 .purple {
   color: rgb(100, 21, 255);
 }
@@ -44,8 +48,6 @@ a {
 
 .container {
   padding: 96px 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 .nav__row {
@@ -178,12 +180,34 @@ h1 {
   padding: 96px 0;
 }
 
+#features {
+  position: relative;
+}
+
 .row__narrow {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
+}
+
+#features .row__narrow {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.feature{
+  width: calc(100% / 3);
+}
+
+.feature__row {
+  display: flex;
+  align-items: flex-start;
+  padding: 32px 24px;
 }
