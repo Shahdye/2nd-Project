@@ -321,24 +321,28 @@ h1 {
   font-size: 50px;
 }
 
-.steps__description {
-  max-width: 576px;
-  margin-right: 64px;
+#steps .section__title {
+  margin-top: -24px;
+  margin-bottom: 12px;
 }
 
 .steps__description {
-  margin-left: 100px;
+  max-width: 576px;
+  margin-left: 24px;
+  line-height: 2;
 }
 
 .step__number {
   color: #cbd5e0;
   font-size: 36px;
   font-weight: 600;
-  line-height: 1;
+  line-height: 2;
 }
 
 .steps__list {
   display: flex;
+  align-items: center;
+  padding: 8px 0;
 }
 
 .step__title {
@@ -347,14 +351,19 @@ h1 {
   font-weight: 550;
 }
 
-#steps .section__title {
-  margin-bottom: 42px;
-}
-
 .step__para {
   padding-left: 24px;
   color: #7c8ba1;
-  font-size: 14.5px;
-  line-height: 2;
+  font-size: 14px;
   font-weight: 500;
+  line-height: 1.7;
+}
+
+.values__description {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.values__img {
+  display: flex;
 }
