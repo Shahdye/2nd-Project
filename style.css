@@ -371,11 +371,33 @@ h1 {
   width: 50%;
 }
 
-#values .section__title{
+#values .section__title {
   padding-bottom: 16px;
 }
 
-.value__title{
+.value__list {
   display: flex;
-  align-items: start;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
+}
+
+.value__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.value__name {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(36, 62, 99);
+}
+
+.value:nth-child(1) .value__img--wrapper {
+  background-color: rgb(154, 230, 180);
 }
