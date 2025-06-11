@@ -307,7 +307,8 @@ h1 {
   transition: all 300ms;
 }
 
-#quality .section__para {
+#quality .section__para,
+#values .section__para {
   padding-top: 16px;
   line-height: 1.5;
   font-size: 18px;
@@ -362,8 +363,19 @@ h1 {
 .values__description {
   display: flex;
   flex-wrap: wrap;
+  max-width: 576px;
 }
 
 .values__img {
   display: flex;
+  width: 50%;
+}
+
+#values .section__title{
+  padding-bottom: 16px;
+}
+
+.value__title{
+  display: flex;
+  align-items: start;
 }
