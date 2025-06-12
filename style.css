@@ -261,7 +261,8 @@ h1 {
 
 #quality .row,
 #steps .row,
-#values .row {
+#values .row,
+#testimonials .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -308,7 +309,8 @@ h1 {
 }
 
 #quality .section__para,
-#values .section__para {
+#values .section__para,
+#testimonials .section__para {
   padding-top: 16px;
   line-height: 1.5;
   font-size: 18px;
@@ -617,4 +619,52 @@ h1 {
     rgb(245, 101, 101) 0%,
     rgb(254, 178, 178) 100%
   );
+}
+
+.testimonial__img {
+  height: 650px;
+  width: 650px;
+}
+
+.testimonials__description {
+  width: 100%;
+  padding-left: 64px;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+}
+
+.testimonial__profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#testimonials .section__title {
+  font-size: 50px;
+  margin-top: -16px;
+}
+
+.testimonial__rating {
+  margin: 40px 0 16px 0;
+}
+
+.fa-star {
+  color: rgba(246, 173, 85);
+}
+
+.testimonial__bottom{
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__buttons{
+  display: flex;
+}
+
+.testimonial__para{
+  margin-top: 16px;
+}
+
+.testimonial__title{
+  font-size: 19px;
 }
