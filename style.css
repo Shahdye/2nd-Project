@@ -462,20 +462,94 @@ h1 {
 
 .plan__top,
 .plan__middle,
-.plan__bottom{
+.plan__bottom {
   padding: 32px;
   text-align: center;
 }
 
-.plan:nth-child(odd) .plan__name, .plan:nth-child(odd) .plan__price, .plan:nth-child(odd) .plan__target {
-    color: #1a202c;
+.plan:nth-child(odd) .plan__name,
+.plan:nth-child(odd) .plan__price,
+.plan:nth-child(odd) .plan__target {
+  color: #1a202c;
 }
 
-.plan__name, .plan__price, .plan__duration {
-    font-weight: bold;
-    line-height: 1.625;
+.plan__name,
+.plan__price,
+.plan__duration {
+  font-weight: bold;
+  line-height: 1.625;
 }
 
 .plan__name {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+.plan__price {
+  font-size: 48px;
+}
+
+.plan__duration {
+  font-size: 16px;
+}
+
+.plan:nth-child(odd) .plan__duration {
+  color: #a0aec0;
+}
+
+.plan:nth-child(odd) .plan__feature {
+  color: #718096;
+}
+
+.plan__target {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+}
+
+.plan__feature {
+  font-size: 16px;
+  margin: 20px 0px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.plan:nth-child(2) .plan__name,
+.plan:nth-child(2) .plan__price,
+.plan:nth-child(2) .plan__target,
+.plan:nth-child(2) .plan__duration,
+.plan:nth-child(2) .plan__feature {
+  color: #f7fafc;
+}
+
+.plan__top,
+.plan__middle,
+.plan__bottom {
+  padding: 32px;
+  text-align: center;
+}
+
+#pricing .section__title {
+  font-size: 48px;
+  padding-bottom: 16px;
+}
+
+.plan__btn {
+  z-index: 2;
+  margin-top: 24px;
+  height: 40px;
+  border-radius: 500px;
+  width: 145px;
+  border: none;
+  background-color: #6415ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  transition: all 300ms;
+}
+
+.plan__bottom {
+  padding: 32px 96px;
+  z-index: 10;
+  position: relative;
 }
