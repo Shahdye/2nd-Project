@@ -695,3 +695,67 @@ h1 {
   margin: 0 12px;
   transition: all 300ms;
 }
+
+.testimonial__details {
+  padding-top: 14px;
+  padding-right: 164px;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background: rgb(229, 231, 235);
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  color: #6415ff;
+}
+
+#start .container {
+  padding: 64px 0;
+}
+
+#start .row {
+  width: 100%;
+  height: 280px;
+  background-color: #6415ff;
+  border-radius: 10px;
+}
+
+.start__row {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.start__title {
+  color: #f7fafc;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  z-index: 2;
+}
+
+.start__buttons {
+  display: flex;
+}
+
+.start__title,
+.start__buttons {
+  width: 50%;
+}
+
+.start__button {
+  padding: 20px 40px;
+  border-radius: 500px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f7fafc;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+  margin: 1px;
+  z-index: 2;
+}
