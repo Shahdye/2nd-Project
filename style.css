@@ -112,6 +112,12 @@ img {
   transition: 300ms;
 }
 
+.btn__menu--close {
+  position: fixed;
+  top: 24px;
+  right: 18px;
+}
+
 header .row {
   display: flex;
   align-items: center;
@@ -1102,6 +1108,16 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+
+  .header__customers--img {
+    padding: 0;
+  }
+
+  .header__img {
+    padding-top: -24px;
   }
 
   .header__description,
@@ -1171,6 +1187,19 @@ footer {
 
   .testimonials__description {
     padding-left: 48px;
+  }
+
+  .testimonial__details {
+    padding: 14px 0;
+  }
+
+  .testimonial__img {
+    width: 450px;
+    height: 450px;
+  }
+
+  footer {
+    padding: 80px 32px;
   }
 }
 
