@@ -24,7 +24,7 @@ body {
   padding: 80px 0;
 }
 
-#features .container{
+#features .container {
   padding: 160px 0 80px 0;
 }
 
@@ -124,19 +124,52 @@ textarea {
   text-align: center;
 }
 
-.section__pre--title{
+.section__pre--title {
   letter-spacing: 2px;
   padding-bottom: 24px;
 }
 
-.section__title{
+.section__title {
   font-size: 50px;
   font-weight: 900;
   padding-bottom: 24px;
 }
 
-.section__para{
+.section__para {
   font-size: 18px;
   font-weight: 450;
   color: #7c8ba1;
+  padding-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service {
+  display: flex;
+  width: calc(100% / 3);
+  padding: 24px;
+}
+
+.service__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.service__title {
+  font-weight: 700;
+}
+
+.service__para {
+  color: rgb(124, 139, 161);
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.service__icon{
+  border:1px solid rgb(124, 139, 161, 0.3);
+  border-radius: 300px;
 }
