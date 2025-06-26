@@ -64,8 +64,19 @@ h2 {
   list-style-type: none;
 }
 
+.nav__link--login {
+  padding-right: 16px;
+}
+
 .purple {
   color: #6415ff;
+}
+
+.nav__button{
+  background-color: #6415ff;
+  color: white;
+  border-radius: 300px;
+  padding: 8px;
 }
 
 .header__page {
@@ -142,7 +153,7 @@ textarea {
   padding-bottom: 40px;
 }
 
-.section__button{
+.section__button {
   width: 140px;
   padding: 12px;
   border-radius: 500px;
@@ -171,6 +182,7 @@ textarea {
 
 .service__title {
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .service__para {
@@ -181,40 +193,76 @@ textarea {
   line-height: 2;
 }
 
-.quality__description{
+.quality__description,
+.steps__description {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 
-.quality__description{
+.quality__description {
   padding-right: 36px;
 }
 
-.section__img--wrapper{
+.section__img--wrapper {
   width: 50%;
 }
 
-.section__img{
-  width: 605px;
+.section__img {
+  width: 650px;
 }
 
-.section__description{
+.section__description {
   display: flex;
 }
 
-.section__para{
+.section__para {
   line-height: 1.5;
   font-size: 18px;
   font-weight: 500;
 }
 
-#quality .section__title{
+#quality .section__title,
+#steps .section__title {
   font-size: 50px;
-  padding-right: 36px;
 }
 
-#quality .section__img{
+#quality .section__title {
+  padding-right: 36px;
+  letter-spacing: 1px;
+}
+
+#quality .section__img {
   padding-left: 24px;
 }
 
+.steps__list {
+  padding-left: 36px;
+}
+
+#steps .section__img {
+  width: 600px;
+  padding-top: 52px;
+}
+
+.step__list {
+  padding: 0px 64px;
+}
+
+#steps .section__pre--title {
+  padding-left: 81px;
+}
+
+#steps .section__title {
+  padding: 0px 12px 32px 81px;
+  letter-spacing: 1px;
+}
+
+#steps .service__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#steps .service__para {
+  padding: 10px 50px 26px 0px;
+}
