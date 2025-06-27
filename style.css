@@ -196,7 +196,8 @@ textarea {
 }
 
 .quality__description,
-.steps__description {
+.steps__description,
+.values__description {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -225,13 +226,14 @@ textarea {
 }
 
 #quality .section__title,
-#steps .section__title {
+#steps .section__title,
+#values .section__title {
   font-size: 50px;
+  letter-spacing: 1px;
 }
 
 #quality .section__title {
   padding-right: 36px;
-  letter-spacing: 1px;
 }
 
 #quality .section__img {
@@ -257,7 +259,6 @@ textarea {
 
 #steps .section__title {
   padding: 0px 12px 32px 81px;
-  letter-spacing: 1px;
 }
 
 #steps .service__title {
@@ -267,4 +268,8 @@ textarea {
 
 #steps .service__para {
   padding: 10px 50px 26px 0px;
+}
+
+#values .section__para{
+  padding-right: 36px;
 }
