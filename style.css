@@ -196,8 +196,7 @@ textarea {
 }
 
 .quality__description,
-.steps__description,
-.values__description {
+.steps__description {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -270,6 +269,17 @@ textarea {
   padding: 10px 50px 26px 0px;
 }
 
-#values .section__para{
+#values .section__para {
   padding-right: 36px;
+}
+
+
+.values__description--wrapper{
+  display: flex;
+}
+
+.values__description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
