@@ -283,3 +283,11 @@ textarea {
   display: flex;
   flex-direction: column;
 }
+
+.value__section{
+display: flex;
+}
+
+.value__title{
+  display: flex;
+}
