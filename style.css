@@ -273,9 +273,7 @@ textarea {
   padding-right: 36px;
 }
 
-
 .values__description--wrapper{
-  display: flex;
 }
 
 .values__description {
@@ -290,4 +288,7 @@ display: flex;
 
 .value__title{
   display: flex;
+}
+
+.values__para{
 }
