@@ -273,9 +273,6 @@ textarea {
   padding-right: 36px;
 }
 
-.values__description--wrapper{
-}
-
 .values__description {
   width: 50%;
   display: flex;
@@ -283,7 +280,9 @@ textarea {
 }
 
 .value__section{
-display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .value__title{
@@ -291,4 +290,10 @@ display: flex;
 }
 
 .values__para{
+  display: flex;
+  justify-content: space-between;
+}
+
+.value__para{
+
 }
