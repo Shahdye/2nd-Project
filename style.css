@@ -279,21 +279,23 @@ textarea {
   flex-direction: column;
 }
 
-.value__section{
+.value__section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.value__title{
+.value__title {
   display: flex;
 }
 
-.values__para{
+.values__para {
   display: flex;
   justify-content: space-between;
 }
 
-.value__para{
-
+.value__para--1,
+.value__para--2 {
+  font-size: 15px;
+  font-weight: 400;
 }
