@@ -271,6 +271,7 @@ textarea {
 
 #values .section__para {
   padding-right: 36px;
+  font-size: 18px;
 }
 
 .values__description {
@@ -296,6 +297,25 @@ textarea {
 
 .value__para--1,
 .value__para--2 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
+}
+
+.value__para--1 {
+  padding: 24px 16px 48px 0px;
+}
+
+.value__para--2 {
+  padding: 24px 16px 48px 12px;
+}
+
+#values .service__title{
+  padding-right: 80px;
+  padding-left: 8px;
+}
+
+svg .value__img{
+  border: 1px solid;
+  padding: 4px;
 }
