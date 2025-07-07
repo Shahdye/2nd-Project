@@ -288,6 +288,7 @@ textarea {
 
 .value__title {
   display: flex;
+  padding-right: 24px;
 }
 
 .values__para {
@@ -300,6 +301,7 @@ textarea {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  color:#7c8ba1
 }
 
 .value__para--1 {
@@ -310,12 +312,21 @@ textarea {
   padding: 24px 16px 48px 12px;
 }
 
-#values .service__title{
+#values .service__title {
   padding-right: 80px;
   padding-left: 8px;
+  font-size: 20px;
+  font-weight: 750;
 }
 
-svg .value__img{
-  border: 1px solid;
-  padding: 4px;
+.value__img{
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.value__img--1 {
+  background-color: #9ae6b4;
+}
+.value__img--2 {
+  background-color: #feb2b2;
 }
