@@ -136,6 +136,7 @@ textarea {
 .feature__description,
 .pricing__description {
   text-align: center;
+  padding: 0px 136px;
 }
 
 .section__pre--title {
@@ -330,4 +331,28 @@ textarea {
 }
 .value__img--2 {
   background-color: #feb2b2;
+}
+
+.plans{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.plan{
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(177, 177, 177, 0.5);
+  border-radius: 3%;
+  padding-top: 56px;
+}
+
+.plan__name{
+  font-size: 20px;
+}
+
+.plan__price{
+  font-size: 48px;
 }
