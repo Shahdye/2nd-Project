@@ -133,7 +133,8 @@ textarea {
   opacity: 0.5;
 }
 
-.feature__description {
+.feature__description,
+.pricing__description {
   text-align: center;
 }
 
