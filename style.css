@@ -198,7 +198,8 @@ textarea {
 }
 
 .quality__description,
-.steps__description {
+.steps__description,
+.testimonials__description {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -458,3 +459,4 @@ textarea {
     rgb(254, 178, 178) 100%
   );
 }
+
