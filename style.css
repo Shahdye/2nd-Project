@@ -353,8 +353,10 @@ textarea {
 }
 
 .plan__price,
+.plan__price--2,
 .plan__name,
-.plan__length {
+.plan__length,
+.plan__length--2 {
   letter-spacing: 1px;
   padding-bottom: 12px;
 }
@@ -406,6 +408,9 @@ textarea {
   margin: 42px 0px;
   padding: 18px 52px;
   border-radius: 300px;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
 }
 
 .plan__2 {
@@ -428,4 +433,28 @@ textarea {
 }
 
 .plan__length--2 {
+  padding-bottom: 30px;
+  color: white;
+}
+
+.plan__button--1 {
+  color: #f7fafc;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.plan__button--2 {
+  color: #6415ff;
+}
+
+.plan__button--3 {
+  color: #f7fafc;
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
