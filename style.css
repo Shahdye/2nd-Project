@@ -460,3 +460,6 @@ textarea {
   );
 }
 
+#testimonials .section__img{
+  width: 500px;
+}
