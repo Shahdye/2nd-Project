@@ -463,3 +463,8 @@ textarea {
 #testimonials .section__img{
   width: 500px;
 }
+
+i{
+  color: gold;
+  font-size: 48px;
+}
