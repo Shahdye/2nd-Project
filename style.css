@@ -461,7 +461,8 @@ textarea {
 }
 
 #testimonials .section__img {
-  width: 500px;
+  width: 610px;
+  padding: 64px 64px 0px 0px;
 }
 
 .fa-star {
@@ -513,12 +514,17 @@ padding: 8px 0px 0px 8px;
   align-items: center;
 }
 
-.fa-arrow-left{
-  font-size: 24px;
-  background-color: #7c8ba1;
+.fa-arrow-left,
+.fa-arrow-right{
+  font-size: 20px;
+  background-color: #ececec;
+  padding: 12px;
+  border-radius: 50px;
+  color: #6415ff;
 }
 
-.fa-arrow-right{
-  font-size: 24px;
-  background-color: #7c8ba1;
+.arrow__split{
+  margin: 0px 20px;
+  height: 20px;
+  border: 1px solid rgb(171, 170, 170, 0.5);
 }
