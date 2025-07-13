@@ -460,11 +460,21 @@ textarea {
   );
 }
 
-#testimonials .section__img{
+#testimonials .section__img {
   width: 500px;
 }
 
-i{
-  color: gold;
-  font-size: 48px;
+i {
+  color: rgba(255, 187, 0, 0.607);
+  font-size: 16px;
+}
+
+.review__title {
+  padding: 20px 0px;
+  font-weight: 700;
+}
+
+.review__para{
+  letter-spacing: 0.3px;
+  font-weight: 400;
 }
