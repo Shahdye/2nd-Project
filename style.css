@@ -475,47 +475,47 @@ textarea {
   font-weight: 700;
 }
 
-.review__para{
+.review__para {
   letter-spacing: 0.3px;
   font-weight: 400;
 }
 
-.review__image--wrapper{
+.review__image--wrapper {
   padding-top: 36px;
   display: flex;
   justify-content: space-between;
 }
 
-.review__image{
+.review__image {
   display: flex;
 }
 
-.review__img{
+.review__img {
   width: 70px;
   border-radius: 50px;
 }
 
-.review__details{
-padding: 8px 0px 0px 8px;
+.review__details {
+  padding: 8px 0px 0px 8px;
 }
 
-.review__name{
+.review__name {
   font-size: 24px;
 }
 
-.review__occupation{
+.review__occupation {
   font-size: 16px;
-  color:#7c8ba1;
+  color: #7c8ba1;
   font-weight: 500;
 }
 
-.review__arrows{
+.review__arrows {
   display: flex;
   align-items: center;
 }
 
 .fa-arrow-left,
-.fa-arrow-right{
+.fa-arrow-right {
   font-size: 20px;
   background-color: #ececec;
   padding: 12px;
@@ -523,8 +523,84 @@ padding: 8px 0px 0px 8px;
   color: #6415ff;
 }
 
-.arrow__split{
+.arrow__split {
   margin: 0px 20px;
   height: 20px;
   border: 1px solid rgb(171, 170, 170, 0.5);
 }
+
+.start__wrapper {
+  background-color: #6415ff;
+  height: 300px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.start__description {
+  color: white;
+  width: 40%;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.start__button--1,
+.start__button--2 {
+  width: 160px;
+  padding: 30px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  margin-right: 40px;
+}
+
+.start__button--1 {
+  background: #f56565;
+  border: none;
+}
+
+.start__button--1:hover {
+  background: rgb(229, 62, 62);
+  border: none;
+  transition: all 300ms;
+}
+
+.start__button--2 {
+  background-color: #6415ff;
+  border-color: rgb(255, 255, 255, 0.3);
+}
+
+.start__button--2:hover {
+  background-color: white;
+  color: #6415ff;
+  transition: all 300ms;
+}
+
+footer{
+  background-color: #6415ff;
+  width: 100%;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.link{
+  list-style-type: none;
+}
+
+.link__title{
+  padding: 56px 0px 24px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.link__name{
+  padding: 8px 0px;
+  color: white;
+}
+
