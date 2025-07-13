@@ -464,7 +464,7 @@ textarea {
   width: 500px;
 }
 
-i {
+.fa-star {
   color: rgba(255, 187, 0, 0.607);
   font-size: 16px;
 }
@@ -477,4 +477,48 @@ i {
 .review__para{
   letter-spacing: 0.3px;
   font-weight: 400;
+}
+
+.review__image--wrapper{
+  padding-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review__image{
+  display: flex;
+}
+
+.review__img{
+  width: 70px;
+  border-radius: 50px;
+}
+
+.review__details{
+padding: 8px 0px 0px 8px;
+}
+
+.review__name{
+  font-size: 24px;
+}
+
+.review__occupation{
+  font-size: 16px;
+  color:#7c8ba1;
+  font-weight: 500;
+}
+
+.review__arrows{
+  display: flex;
+  align-items: center;
+}
+
+.fa-arrow-left{
+  font-size: 24px;
+  background-color: #7c8ba1;
+}
+
+.fa-arrow-right{
+  font-size: 24px;
+  background-color: #7c8ba1;
 }
