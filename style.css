@@ -604,3 +604,47 @@ footer{
   color: white;
 }
 
+.footer__break{
+border: 1px solid grey;
+margin: 72px 0px 81px 0px;
+}
+
+.footer__info{
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__title{
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo{
+  width: 35px;
+  color: white;
+  background-color: white;
+}
+
+.footer__logo--name{
+  letter-spacing: 0.5px;
+  padding-left: 6px;
+  color: white;
+  font-size: 20px;
+}
+
+.copywright{
+  font-size: 16px;
+  font-weight: 500;
+  color: #c2c2c2;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-youtube{
+  padding: 12px;
+  color: #6415ff;
+  background-color: #ececec;
+}
+
