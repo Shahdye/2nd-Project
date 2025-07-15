@@ -334,6 +334,9 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.value__title--wrapper {
+  display: flex;
+}
 
 .value__title {
   display: flex;
@@ -368,9 +371,10 @@ h2 {
   font-weight: 750;
 }
 
-.value__img {
-  padding: 2px;
-  border-radius: 50%;
+.value__img--1,
+.value__img--2{
+  border-radius: 50px;
+  padding: 1px;
 }
 
 .value__img--1 {
@@ -378,6 +382,7 @@ h2 {
 }
 .value__img--2 {
   background-color: #feb2b2;
+  margin-left: 48px;
 }
 
 .plans {
@@ -719,7 +724,7 @@ footer a:hover {
   }
 
   .nav {
-    padding: 16px 24px;
+    padding: 16px;
   }
 
   .header__page {
@@ -735,6 +740,7 @@ footer a:hover {
   #quality .section__description,
   #steps .section__description,
   #values .section__description {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -742,24 +748,26 @@ footer a:hover {
 
   #quality .section__img {
     width: 80%;
-    padding-top: 48px;
+    padding-top: 50px;
   }
 
-  #steps .section__img{
+  #steps .section__img {
     width: 80%;
     padding-bottom: 50px;
   }
 
-  .steps__description{
+  .steps__description {
     padding-right: 42px;
   }
 
-  #values .section__img{
-    
+  .value__title--wrapper {
+    display: flex;
   }
 
-  
-  
+  #values .section__img {
+    width: 90%;
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: px) {
