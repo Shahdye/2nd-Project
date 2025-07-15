@@ -713,10 +713,55 @@ footer a:hover {
 }
 
 @media (max-width: 1024px) {
-  .nav__link {
+  .nav__links,
+  .nav__button {
     display: none;
   }
+
+  .nav {
+    padding: 16px 24px;
+  }
+
+  .header__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__img {
+    padding: 48px 128px 0px 0px;
+  }
+
+  #quality .section__description,
+  #steps .section__description,
+  #values .section__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #quality .section__img {
+    width: 80%;
+    padding-top: 48px;
+  }
+
+  #steps .section__img{
+    width: 80%;
+    padding-bottom: 50px;
+  }
+
+  .steps__description{
+    padding-right: 42px;
+  }
+
+  #values .section__img{
+    
+  }
+
+  
+  
 }
+
 @media (max-width: px) {
    {
   }
