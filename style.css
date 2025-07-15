@@ -372,7 +372,7 @@ h2 {
 }
 
 .value__img--1,
-.value__img--2{
+.value__img--2 {
   border-radius: 50px;
   padding: 1px;
 }
@@ -718,6 +718,7 @@ footer a:hover {
 }
 
 @media (max-width: 1024px) {
+
   .nav__links,
   .nav__button {
     display: none;
@@ -728,18 +729,39 @@ footer a:hover {
   }
 
   .header__page {
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  .header__description{
+    text-align: center;
+  }
+
   .header__img {
-    padding: 48px 128px 0px 0px;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .section__pre--title{
+    text-align: center;
+  }
+
+  #quality .section__pre--title,
+  #values .section__pre--title{
+    padding-right: 56px;
+  }
+
+  #steps .section__pre--title{
+    padding-right: 60px;
+
   }
 
   #quality .section__description,
   #steps .section__description,
-  #values .section__description {
+  #values .section__description,
+  #testimonials .section__description {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -757,7 +779,7 @@ footer a:hover {
   }
 
   .steps__description {
-    padding-right: 42px;
+    padding-right: 50px;
   }
 
   .value__title--wrapper {
@@ -768,17 +790,25 @@ footer a:hover {
     width: 90%;
     padding-top: 50px;
   }
+
+  .value__img--2 {
+    margin-left: 1px;
+  }
+
+  .plan__3{
+    margin-top: 40px;
+  }
+
+  #testimonials .section__img{
+    width: 110%;
+    padding-bottom: 50px;
+  }
+
+  footer{
+    padding: 0px 50px;
+  }
 }
 
-@media (max-width: px) {
-   {
-  }
-}
-@media (max-width: 768px) {
-   {
-  }
-}
-@media (max-width: 576px) {
-   {
-  }
+@media (max-width: 768px){
+  
 }
