@@ -808,15 +808,20 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+  .email {
+    width: 500px;
+    margin-left: -56px;
+  }
   .customer__img {
-    padding-right: 130px;
+    width: 150%;
+    margin-left: -72px;
   }
 
   .service {
     width: calc(100% / 2);
   }
 
-  .section__button{
+  .section__button {
     margin-left: 90px;
   }
 
@@ -826,16 +831,66 @@ footer a:hover {
 
   .plan__1,
   .plan__2,
-  .plan__3{
+  .plan__3 {
     width: 50%;
   }
 
-  .plan__2{
+  .plan__2 {
     margin-top: 40px;
   }
 
-  #testimonials .section__description{
+  #testimonials .section__description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .email {
+    width: 300px;
+    padding-right: 32px;
+  }
+
+  .customer__img {
+    padding-right: 210px;
+  }
+
+  #quality .section__pre--title {
+    padding-left: 46px;
+  }
+
+  #quality .section__para {
     text-align: center;
   }
 
+  #quality .section__img {
+    padding-top: 24px;
+    margin-left: -72px;
+    width: 140%;
+  }
+
+  .section__button {
+    margin-left: 56px;
+  }
+
+  #values .section__para {
+    text-align: center;
+  }
+
+  .value__img--1 {
+    margin-left: -48px;
+  }
+  .value__title--wrapper {
+    max-width: 20px;
+  }
+
+  .steps__description {
+    margin-left: -72px;
+  }
+  #steps .section__title {
+    margin: 0 auto;
+  }
+
+  #steps .service__para {
+    padding-right: 0px;
+  }
 }
