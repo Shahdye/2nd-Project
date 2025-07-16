@@ -825,6 +825,16 @@ footer a:hover {
     margin-left: 90px;
   }
 
+  #quality .section__img {
+    width: 100%;
+    margin-left: -34px;
+  }
+
+  #steps .section__img {
+    width: 100%;
+    padding-top: 0px;
+  }
+
   .value__img--2 {
     margin-left: -62px;
   }
@@ -841,6 +851,21 @@ footer a:hover {
 
   #testimonials .section__description {
     text-align: center;
+  }
+
+  #testimonials .section__img {
+    width: 140%;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-left: -40px;
+  }
+
+  .start__wrapper {
+    padding-left: 24px;
+  }
+
+  .start__button--1 {
+    margin-right: 8px;
   }
 }
 
