@@ -835,6 +835,19 @@ footer a:hover {
     padding-top: 0px;
   }
 
+  #values .section__button {
+    margin-left: 100px;
+  }
+
+  #values .section__title {
+    text-align: center;
+    padding-right: 48px;
+  }
+
+  .value__img--1 {
+    margin-left: -12px;
+  }
+
   .value__img--2 {
     margin-left: -62px;
   }
@@ -872,15 +885,20 @@ footer a:hover {
 @media (max-width: 576px) {
   .email {
     width: 300px;
-    padding-right: 32px;
+    margin-left: -28px;
   }
 
   .customer__img {
-    padding-right: 210px;
+    width: 150%;
+    padding-left: 30px;
   }
 
   #quality .section__pre--title {
     padding-left: 46px;
+  }
+
+  #quality .section__title{
+    font-size: 42px;
   }
 
   #quality .section__para {
@@ -901,6 +919,10 @@ footer a:hover {
     text-align: center;
   }
 
+  #values .section__button{
+    margin-left: 58px;
+  }
+
   .value__img--1 {
     margin-left: -48px;
   }
@@ -911,11 +933,38 @@ footer a:hover {
   .steps__description {
     margin-left: -72px;
   }
+
+  #steps .section__pre--title{
+padding-left: 150px;
+  }
+
   #steps .section__title {
     margin: 0 auto;
   }
 
   #steps .service__para {
     padding-right: 0px;
+  }
+
+  #testimonials .section__img{
+    margin-left: -16px;
+  }
+
+  .review__image--wrapper{
+    width: 100%;
+    margin-left: -10px;
+  }
+
+  .review__img{
+    height: 70px;
+  }
+
+  .review__details{
+    margin: 0px 12px;
+    padding-top: 0px;
+  }
+
+  .review__arrows{
+    margin: -16px 0px 0px 4px;
   }
 }
