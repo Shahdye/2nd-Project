@@ -92,7 +92,7 @@ h2 {
   padding: 12px 21px;
 }
 
-.btn__menu{
+.btn__menu {
   background-color: transparent;
   font-size: 24px;
   text-align: center;
@@ -100,16 +100,47 @@ h2 {
   color: #7c8ba1;
 }
 
-.menu__backdrop{
+.menu__backdrop {
   position: absolute;
-  background-color: rgb(21, 3, 3);
+  background-color: rgb(255, 255, 255);
   top: 0;
   left: 0;
+  border: 0.5px solid rgb(168, 166, 166, 0.5);
   border-radius: 10px;
-  margin: 16px 12px;
+  margin: 16px 28px 0px 12px;
   width: 100vw;
-  height: 50vh;
+  height: 52vh;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__menu--close {
+  position: absolute;
+  right: 24px;
+  top: 10px;
+}
+
+.menu__links {
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu__list {
+  padding-bottom: 28px;
+}
+
+.menu__link {
+  font-size: 18px;
+}
+
+.menu__link--signup {
+  margin-left: 30px;
+  padding: 11px 24px;
+  border-radius: 50px;
+  background-color: #6415ff;
+  color: white;
 }
 
 .header__page {
@@ -935,7 +966,7 @@ footer a:hover {
     margin-left: 56px;
   }
 
-  #values .section__pre--title{
+  #values .section__pre--title {
     padding-left: 12px;
   }
 
@@ -1012,21 +1043,21 @@ footer a:hover {
     width: calc(100% / 3);
   }
 
-  .link:nth-child(5){
+  .link:nth-child(5) {
     text-align: center;
     max-height: 280px;
     padding: 0px;
   }
 
-  .footer__info{
+  .footer__info {
     padding: 0px 18px;
   }
 
-  .footer__img{
+  .footer__img {
     width: 24px;
   }
 
-  .copywright{
+  .copywright {
     font-size: 12px;
   }
 }
