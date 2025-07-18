@@ -92,6 +92,26 @@ h2 {
   padding: 12px 21px;
 }
 
+.btn__menu{
+  background-color: transparent;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  color: #7c8ba1;
+}
+
+.menu__backdrop{
+  position: absolute;
+  background-color: rgb(21, 3, 3);
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  margin: 16px 12px;
+  width: 100vw;
+  height: 50vh;
+  z-index: 100;
+}
+
 .header__page {
   display: flex;
 }
