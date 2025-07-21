@@ -76,10 +76,6 @@ h2 {
   padding-left: 550px;
 }
 
-.nav__link--login {
-  padding-right: 16px;
-}
-
 .purple {
   color: #6415ff;
 }
@@ -98,6 +94,11 @@ h2 {
   text-align: center;
   border: none;
   color: #7c8ba1;
+  display: none;
+}
+
+.btn__menu:hover {
+  color: #6415ff;
 }
 
 .menu__backdrop {
@@ -114,7 +115,15 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 300ms ease;
+}
+
+.menu--open .menu__backdrop {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
 }
 
 .btn__menu--close {
@@ -134,6 +143,7 @@ h2 {
 
 .menu__link {
   font-size: 18px;
+  text-decoration: none;
 }
 
 .menu__link--signup {
@@ -456,6 +466,31 @@ h2 {
   margin: 0px 20px;
 }
 
+.plan__break--1,
+.plan__break--3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 16px;
+}
+
+.plan__break--1 {
+  color: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.plan__break--3 {
+  color: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
 .plan__price,
 .plan__price--2,
 .plan__name,
@@ -773,6 +808,10 @@ footer a:hover {
   .nav__links,
   .nav__button {
     display: none;
+  }
+
+  .btn__menu {
+    display: block;
   }
 
   .nav {
