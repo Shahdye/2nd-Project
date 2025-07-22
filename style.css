@@ -44,7 +44,7 @@ a {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  color: rgba(19, 18, 18, 0.799);
+  color: black;
 }
 
 a:hover {
@@ -54,23 +54,26 @@ a:hover {
   color: #6415ff;
 }
 
+.white {
+  color: white;
+}
+
 .nav__title {
   display: flex;
   align-items: center;
 }
 
-.nav__link--login{
+.nav__link--login {
   margin: 0px 24px 0px 0px;
 }
 
-
-.nav__link--signup{
+.nav__link--signup {
   background-color: #6415ff;
+  color: white;
   border-radius: 50px;
   padding: 12px 36px 12px 0px;
   margin-top: -10px;
 }
-
 
 .treact__logo {
   width: 50px;
@@ -489,11 +492,7 @@ h2 {
 }
 
 .plan__break--1 {
-  color: linear-gradient(
-    115deg,
-    rgb(56, 178, 172) 0%,
-    rgb(129, 230, 217) 100%
-  );
+  color: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .plan__break--3 {
