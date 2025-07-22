@@ -59,6 +59,19 @@ a:hover {
   align-items: center;
 }
 
+.nav__link--login{
+  margin: 0px 24px 0px 0px;
+}
+
+
+.nav__link--signup{
+  background-color: #6415ff;
+  border-radius: 50px;
+  padding: 12px 36px 12px 0px;
+  margin-top: -10px;
+}
+
+
 .treact__logo {
   width: 50px;
   padding-right: 8px;
@@ -73,7 +86,7 @@ h2 {
 .nav__links {
   display: flex;
   list-style-type: none;
-  padding-left: 550px;
+  padding-left: 480px;
 }
 
 .purple {
