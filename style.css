@@ -880,6 +880,10 @@ footer a:hover {
     align-items: center;
   }
 
+  .header__title{
+    width: 100%;
+  }
+
   .header__description {
     text-align: center;
   }
